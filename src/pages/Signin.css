@@ -1,0 +1,50 @@
+.sig{
+    margin-top: 100px;
+}
+.log{
+    width: 400px;
+    margin: auto;
+    font-size: large;
+}
+.ll{
+    height: 40vh;
+    position: relative;
+    border: 2px solid #ff0303;
+    animation: a 10s infinite;
+}
+
+@keyframes a {
+    0%,50%{
+        border-color: red;
+    }
+    10%,90%{
+        border-color: rgb(187, 255, 0);
+    }
+    20%,80%{
+        border-color: rgb(255, 0, 85);
+    }
+    30%,70%{
+        border-color: green;
+    }
+    40%,60%{
+        border-color: yellow;
+    }
+}
+
+.btn4{
+    position: absolute;
+    background-color: red;
+    color: rgb(59, 16, 16);
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: large;
+    border: none;
+    
+    left: 35%;
+}
+.btn4:hover{
+    background-color: black;
+    color: red;
+}

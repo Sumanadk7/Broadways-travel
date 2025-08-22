@@ -1,0 +1,87 @@
+.activities{
+    margin-top: 70px;
+    background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?fm=jpg&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bGFuZHNjYXBlJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000');
+    background-size: cover; 
+    background-position: center;
+    height: 80vh;
+    width: 100%;
+    position: relative;
+}
+
+ 
+.activities h2, .activities .boxe {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    color: white;
+}
+
+.activities .boxe {
+    margin-top: 40px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.inp1,.inp2{
+    position: relative;
+}
+
+.ee1,.ee2{
+    height: 80px;
+    font-size: x-large;
+    padding: 22px 0 0 15px;
+    border-radius: 10px;
+    width: 400px;
+    border: 2px solid #ff0707;
+}
+
+.inp1 h6,.inp2 h6 {
+    position: absolute;
+    top: 15%;
+    left: 5%;
+}
+
+.btnn1{
+  width: 200px;
+  height: 80px;
+  border-radius: 5px;
+  padding-left: 10px;
+  border: 1px solid #fc05056e;
+  font-size: x-large;
+  font-weight: bold;
+  background-color: #fc0505;
+  color: white;
+}
+.btnn1:hover{
+  background-color: black;
+  color: red;
+}
+
+.list{
+    gap: 40px;
+}
+
+.lis{
+    width: 500px;
+    gap: 20px;
+}
+.lis:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+    border: 1px solid black;
+}
+.img img{
+    height: 200px;
+    width: 260px;
+}
+.btnn2{
+    background-color: red;
+    color: rgb(5, 0, 0);
+    border: none;
+}
+.btnn2:hover{
+    transform: scale(1.1);
+    color: white;
+    background-color: black;
+}

@@ -1,0 +1,35 @@
+.top {
+  background-color: #A8806A;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 999;
+}
+
+.top img {
+  width: 100%;
+  height: 40px;
+}
+
+.top ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.tt {
+  text-decoration: none;
+  color: #fff;
+}
+
+
+.btn {
+  border: 1px solid #fff;
+  color: #fff;
+  background: transparent;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #000000;
+}

@@ -1,0 +1,74 @@
+.ftop {
+  margin-top: 70px;
+  background-image: url('https://tripturbo.com/static/assets/img/images/flightBg.webp'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+  width: 100%;
+  position: relative;
+}
+ 
+.ftop h2,.ftop .box{
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  color: white;
+}
+.box1{
+  position: relative;
+}
+.pass {
+  padding-left: 45px;
+  width: 200px; 
+  border: 1px solid #fc05057e;
+}
+.aa{
+  position: absolute;
+   top: 25%;
+   left: 10%;
+}
+form{
+  gap: 40px;
+}
+.contry{
+  border: 1px solid #fc05056e;
+}
+.mapp{
+  position: absolute;
+  top: 20%;
+  left: 75%;
+  color: #fc0505;
+  font-size: 45px;
+}
+.in3,.in4{
+  position: relative;
+}
+.aaa{
+  width: 250px;
+  height: 80px;
+  border-radius: 5px;
+  padding-left: 10px;
+  border: 1px solid #fc05056e;
+  box-shadow: 1px 1px 5px #00000000;
+  font-size: x-large;
+  font-weight: bold;
+}
+.aaa:hover{
+  box-shadow: 1px 1px 5px #00000000;
+}
+.btnn{
+  width: 150px;
+  height: 80px;
+  border-radius: 5px;
+  padding-left: 10px;
+  border: 1px solid #fc05056e;
+  font-size: x-large;
+  font-weight: bold;
+  background-color: #fc0505;
+  color: white;
+}
+.btnn:hover{
+  background-color: black;
+  color: red;
+}

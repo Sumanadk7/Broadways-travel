@@ -1,0 +1,47 @@
+footer ul {
+    font-size: 20px;
+}
+
+
+.maaa {
+    width: 100px;
+    height: 120px;
+}
+
+.mid img {
+    width: 250px;
+}
+
+.btn1 {
+    width: 200px;
+    height: 60px;
+    border-radius: 5px;
+}
+.apple{
+    font-size: 40px;
+}
+.btn2 {
+    width: 200px;
+    height: 60px;
+    border-radius: 5px;
+}
+.play{
+    font-size: 35px;
+}
+
+.btn1:hover, .btn2:hover {
+    transform: scale(1.05);
+}
+.ff{
+    font-size: 30px;
+}
+.ff:hover {
+    color: #000000;
+}
+.gapl{
+    gap: 5px;
+}
+
+.copy{
+    border-top: 1px solid #fff;
+}
